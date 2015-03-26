@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @thermometer.location %>
+</p>
+
+<p>
+  <strong>Maxtemp:</strong>
+  <%= @thermometer.maxtemp %>
+</p>
+
+<p>
+  <strong>Power:</strong>
+  <%= @thermometer.power %>
+</p>
+
+<p>
+  <strong>Current Temperature:</strong>
+  <%= @thermometer.current_temp %>
+</p>
+
+
+<%= link_to 'Edit', edit_thermometer_path(@thermometer) %> |
+<%= link_to 'Back', thermometers_path %>

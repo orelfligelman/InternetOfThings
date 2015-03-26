@@ -1,0 +1,975 @@
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:29: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:29: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:30: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `each'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/application.rb:384:in `run_tasks_blocks'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/engine.rb:449:in `load_tasks'
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/Rakefile:6:in `<top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
