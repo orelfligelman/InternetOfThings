@@ -3,7 +3,6 @@ class Thermometer < ActiveRecord::Base
   resourcify
   require 'rest_client'
 
-
     def broken_thermometer
       if @thermometer.updated_at != Time.now - 45
         ThermometerMailer.delay.broken_thermometer

@@ -51,4 +51,6 @@ gem 'rest-client'
 gem 'better_errors'
 gem 'pry'
 gem 'binding_of_caller'
-gem "puma"
+# gem "puma"
+gem 'pg'
+gem 'capistrano-rails', '~> 1.1.1'

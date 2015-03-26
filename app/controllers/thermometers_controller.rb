@@ -1,6 +1,6 @@
 class ThermometersController < ApplicationController
   before_action :set_thermometer, only: [:show, :edit, :update, :destroy]
-  before_filter :authenticate_user!
+  # before_filter :authenticate_user!
   require 'rake'
   load_and_authorize_resource
   include ActionController::Live
@@ -24,12 +24,13 @@ class ThermometersController < ApplicationController
   end
 
   def index
-    @thermometers = current_user.thermometers.order('created_at desc')
+    @thermometers = Thermometer.all
+    # @thermometers = current_user.thermometers.order('created_at desc')
     respond_with(@thermometers)
   end
 
   def show
-    hot_hot_hot
+    # hot_hot_hot
   end
 
   def new

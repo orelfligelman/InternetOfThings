@@ -28,3 +28,4 @@ namespace :thermometer do
     @thermometer = Thermometer.find(1)
     puts "Scuuuuuse meeeee"
   end
+end
