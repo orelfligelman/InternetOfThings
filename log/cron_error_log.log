@@ -5605,3 +5605,122 @@ Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
 /Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
 Tasks: TOP => thermometer:get_reading
 (See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+rake aborted!
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Don't know how to build task 'make_sure_nothing_is_broken'
+(See full trace by running task with --trace)
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'email_user_if_its_too_hot'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+rake aborted!
+(See full trace by running task with --trace)
+Don't know how to build task 'make_sure_nothing_is_broken'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Errno::ECONNREFUSED: Connection refused - connect(2) for "localhost" port 5000
+/Users/adityanarayan/RubymineProjects/InternetOfThings/home_automation_server/lib/tasks/thermometer.rake:9:in `block (2 levels) in <top (required)>'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/adityanarayan/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => thermometer:get_reading
+(See full trace by running task with --trace)
