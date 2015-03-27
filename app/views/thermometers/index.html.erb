@@ -17,6 +17,7 @@
         <td><%= thermometer.location %></td>
         <td><%= thermometer.maxtemp %></td>
         <td><%= thermometer.power %></td>
+        <td><%= button_to 'Turn off Thermometer', thermometer, method: :delete, remote: true  %></td>
         <td><%= link_to 'Show', thermometer %></td>
         <td><%= link_to 'Edit', edit_thermometer_path(thermometer) %></td>
         <td><%= link_to 'Destroy', thermometer, method: :delete, data: { confirm: 'Are you sure?' } %></td>

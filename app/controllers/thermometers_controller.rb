@@ -43,11 +43,7 @@ class ThermometersController < ApplicationController
 
   def create
     @thermometer = Thermometer.new(thermometer_params)
-    binding.pry
-    if  @thermometer.save
-      # @thermometer.get_reading
-      # ThermometerMailer.delay.confirmation(self)
-    end
+      @thermometer.save
     respond_with(@thermometer)
   end
 

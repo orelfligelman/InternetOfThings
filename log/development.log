@@ -6309,3 +6309,1250 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 17:15:06
   [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
   [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
   [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.1ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.1ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.1ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.1ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.1ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.2ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36m (4.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateThermometers (20150325201603)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.9ms)[0m  [1mCREATE TABLE "thermometers" ("id" serial primary key, "location" character varying(255), "maxtemp" float, "power" boolean, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150325201603"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateUsers (20150325201707)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (5.4ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150325201707"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddColumnsToUsers (20150325201755)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD COLUMN "provider" character varying(255)[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD COLUMN "uid" character varying(255)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20150325201755"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+Migrating to RolifyCreateRoles (20150325212048)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (5.6ms)[0m  CREATE TABLE "roles" ("id" serial primary key, "name" character varying(255), "resource_id" integer, "resource_type" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "users_roles" ("user_id" integer, "role_id" integer) [0m
+  [1m[35m (0.9ms)[0m  CREATE  INDEX  "index_roles_on_name" ON "roles"  ("name")
+  [1m[36m (1.1ms)[0m  [1mCREATE  INDEX  "index_roles_on_name_and_resource_type_and_resource_id" ON "roles"  ("name", "resource_type", "resource_id")[0m
+  [1m[35m (1.2ms)[0m  CREATE  INDEX  "index_users_roles_on_user_id_and_role_id" ON "users_roles"  ("user_id", "role_id")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20150325212048"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Migrating to AddColumnToThermometer (20150325213626)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "thermometers" ADD COLUMN "current_temp" float
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20150325213626"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-26 19:52:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 77ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 19:53:04 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.5ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 379ms (Views: 357.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 19:53:05 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (1.0ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.6ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-26 20:14:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 72ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:14:37 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.6ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 186ms (Views: 163.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:14:38 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:15:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:15:32 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:15:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:15:32 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 112ms (Views: 105.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:18:53 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.3ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 136ms (Views: 132.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:19:12 -0400
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.3ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 108ms (Views: 103.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:19:40 -0400
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.3ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 116ms (Views: 111.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:00 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:20:01 -0400
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 105ms (Views: 100.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:20:13 -0400
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:20:23 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 110ms (Views: 104.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:20:24 -0400
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 113ms (Views: 108.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:21:22 -0400
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 109ms (Views: 104.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:21:46 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:24:54 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (173.9ms)
+  Rendered thermometers/new.html.erb within layouts/application (194.3ms)
+Completed 200 OK in 299ms (Views: 292.6ms | ActiveRecord: 2.3ms)
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:25:05 -0400
+Processing by ThermometersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YIfqJW2xMf2wGduWx4Jd12ocDzIWBZUWZbB3bCeQm7Q=", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"80", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-03-27 00:25:59.922884"], ["location", "bedroom"], ["maxtemp", 80.0], ["power", "t"], ["updated_at", "2015-03-27 00:25:59.922884"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+
+Redirected to http://localhost:3000/thermometers/1
+
+Completed 302 Found in 54076ms (ActiveRecord: 1.6ms)
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:25:59 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (6.7ms)
+  Rendered thermometers/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 111ms (Views: 90.7ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:26:00 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (2.3ms)
+  Rendered thermometers/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 98ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:26:00 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (2.2ms)
+  Rendered thermometers/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 80ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 79ms (Views: 75.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:26:06 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:27:21 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.6ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 20ms
+
+NoMethodError - undefined method `destroy_thermometer_path' for #<#<Class:0x00000107840690>:0x00000102870908>:
+  app/views/thermometers/index.html.erb:20:in `block in _app_views_thermometers_index_html_erb__1564454958450741487_2168637120'
+  activerecord (4.1.8) lib/active_record/relation/delegation.rb:46:in `each'
+  app/views/thermometers/index.html.erb:15:in `_app_views_thermometers_index_html_erb__1564454958450741487_2168637120'
+  actionview (4.1.8) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.8) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.8) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.8) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.8) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.8) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.8) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/adityanarayan/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.8) lib/action_controller/metal/responder.rb:238:in `default_render'
+  actionpack (4.1.8) lib/action_controller/metal/responder.rb:165:in `to_html'
+  actionpack (4.1.8) lib/action_controller/metal/responder.rb:158:in `respond'
+  actionpack (4.1.8) lib/action_controller/metal/responder.rb:151:in `call'
+  actionpack (4.1.8) lib/action_controller/metal/mime_responds.rb:400:in `respond_with'
+  app/controllers/thermometers_controller.rb:29:in `index'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal/live.rb:229:in `block in process'
+
+
+
+Started POST "/__better_errors/be661c2496ec6a7b/variables" for 127.0.0.1 at 2015-03-26 20:27:21 -0400
+  [1m[36mThermometer Load (0.7ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 80ms (Views: 75.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:28:17 -0400
+
+
+Started DELETE "/thermometers/1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+Processing by ThermometersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YIfqJW2xMf2wGduWx4Jd12ocDzIWBZUWZbB3bCeQm7Q=", "id"=>"1"}
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRole Load (5.3ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE "roles"."resource_id" = $1 AND "roles"."resource_type" = $2[0m  [["resource_id", 1], ["resource_type", "Thermometer"]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "thermometers" WHERE "thermometers"."id" = $1  [["id", 1]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers
+Completed 302 Found in 68ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 94ms (Views: 88.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:28:20 -0400
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 83ms (Views: 78.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:29:43 -0400
+
+
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:29:46 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (2.2ms)
+  Rendered thermometers/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:29:50 -0400
+Processing by ThermometersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YIfqJW2xMf2wGduWx4Jd12ocDzIWBZUWZbB3bCeQm7Q=", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"100", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-03-27 00:29:50.920659"], ["location", "bedroom"], ["maxtemp", 100.0], ["power", "t"], ["updated_at", "2015-03-27 00:29:50.920659"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/thermometers/2
+Completed 302 Found in 12ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/thermometers/2" for 127.0.0.1 at 2015-03-26 20:29:50 -0400
+Processing by ThermometersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mThermometer Load (0.3ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered thermometers/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 108ms (Views: 102.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:29:51 -0400
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:29:52 -0400
+Processing by ThermometersController#index as HTML
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 77ms (Views: 72.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:29:52 -0400
+
+
+Started DELETE "/thermometers/2" for 127.0.0.1 at 2015-03-26 20:29:54 -0400
+Processing by ThermometersController#destroy as JS
+  Parameters: {"authenticity_token"=>"YIfqJW2xMf2wGduWx4Jd12ocDzIWBZUWZbB3bCeQm7Q=", "id"=>"2"}
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE "roles"."resource_id" = $1 AND "roles"."resource_type" = $2[0m  [["resource_id", 2], ["resource_type", "Thermometer"]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "thermometers" WHERE "thermometers"."id" = $1  [["id", 2]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers
+Completed 302 Found in 12ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:29:54 -0400
+Processing by ThermometersController#index as JS
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT "thermometers".* FROM "thermometers"
+  Rendered thermometers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 83ms (Views: 78.9ms | ActiveRecord: 0.4ms)
+  [1m[36mThermometer Load (0.6ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/thermometers/2" for 127.0.0.1 at 2015-03-26 20:32:19 -0400
+Processing by ThermometersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mThermometer Load (0.3ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound - Couldn't find Thermometer with 'id'=2:
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:320:in `raise_record_not_found_exception!'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:429:in `find_one'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:413:in `find_with_ids'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:68:in `find'
+  activerecord (4.1.8) lib/active_record/querying.rb:3:in `find'
+  app/controllers/thermometers_controller.rb:62:in `set_thermometer'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:143:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal/live.rb:229:in `block in process'
+
+
+
+Started GET "/thermometers/2" for 127.0.0.1 at 2015-03-26 20:32:19 -0400
+Processing by ThermometersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mThermometer Load (1.3ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound - Couldn't find Thermometer with 'id'=2:
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:320:in `raise_record_not_found_exception!'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:429:in `find_one'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:413:in `find_with_ids'
+  activerecord (4.1.8) lib/active_record/relation/finder_methods.rb:68:in `find'
+  activerecord (4.1.8) lib/active_record/querying.rb:3:in `find'
+  app/controllers/thermometers_controller.rb:62:in `set_thermometer'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:143:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal/live.rb:229:in `block in process'
+
+
+
+Started POST "/__better_errors/312d33b4cb776846/variables" for 127.0.0.1 at 2015-03-26 20:32:19 -0400
+
+
+Started GET "/thermometers/new" for 127.0.0.1 at 2015-03-26 20:32:26 -0400
+Processing by ThermometersController#new as HTML
+  Rendered thermometers/_form.html.erb (2.9ms)
+  Rendered thermometers/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 79ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:32:32 -0400
+Processing by ThermometersController#create as JS
+  Parameters: {"utf8"=>"✓", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"11", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-03-27 00:32:32.658232"], ["location", "bedroom"], ["maxtemp", 11.0], ["power", "t"], ["updated_at", "2015-03-27 00:32:32.658232"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers/3
+Completed 302 Found in 12ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/thermometers/3" for 127.0.0.1 at 2015-03-26 20:32:32 -0400
+Processing by ThermometersController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered thermometers/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 91.4ms | ActiveRecord: 0.4ms)
+  [1m[36mThermometer Load (0.5ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:33:04 -0400
+Processing by ThermometersController#create as JS
+  Parameters: {"utf8"=>"✓", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"11", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-03-27 00:33:04.104540"], ["location", "bedroom"], ["maxtemp", 11.0], ["power", "t"], ["updated_at", "2015-03-27 00:33:04.104540"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers/4
+Completed 302 Found in 11ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/thermometers/4" for 127.0.0.1 at 2015-03-26 20:33:04 -0400
+Processing by ThermometersController#show as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered thermometers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 89ms (Views: 83.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:33:20 -0400
+Processing by ThermometersController#create as JS
+  Parameters: {"utf8"=>"✓", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"11", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-03-27 00:33:20.395268"], ["location", "bedroom"], ["maxtemp", 11.0], ["power", "t"], ["updated_at", "2015-03-27 00:33:20.395268"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers/5
+Completed 302 Found in 11ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/thermometers/5" for 127.0.0.1 at 2015-03-26 20:33:20 -0400
+Processing by ThermometersController#show as JS
+  Parameters: {"id"=>"5"}
+  [1m[35mThermometer Load (0.4ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered thermometers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/thermometers" for 127.0.0.1 at 2015-03-26 20:33:36 -0400
+Processing by ThermometersController#create as JS
+  Parameters: {"utf8"=>"✓", "thermometer"=>{"location"=>"bedroom", "maxtemp"=>"11", "power"=>"1"}, "commit"=>"Create Thermometer"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "thermometers" ("created_at", "location", "maxtemp", "power", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-03-27 00:33:36.731772"], ["location", "bedroom"], ["maxtemp", 11.0], ["power", "t"], ["updated_at", "2015-03-27 00:33:36.731772"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/thermometers/6
+Completed 302 Found in 10ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/thermometers/6" for 127.0.0.1 at 2015-03-26 20:33:36 -0400
+Processing by ThermometersController#show as JS
+  Parameters: {"id"=>"6"}
+  [1m[35mThermometer Load (0.2ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered thermometers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 80.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+Processing by ThermometersController#index as HTML
+  [1m[36mThermometer Load (0.4ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 97ms (Views: 92.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/current_temperature.css?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/thermometers.css?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/current_temperature.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/noahcooper-jQuery.thermometer-e536347/src/jquery.thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/thermometer.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/thermometers.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+
+
+Started GET "/assets/thermometer.jpg" for 127.0.0.1 at 2015-03-26 20:34:02 -0400
+  [1m[36mThermometer Load (0.6ms)[0m  [1mSELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started DELETE "/thermometers/6" for 127.0.0.1 at 2015-03-26 20:34:05 -0400
+Processing by ThermometersController#destroy as JS
+  Parameters: {"authenticity_token"=>"YIfqJW2xMf2wGduWx4Jd12ocDzIWBZUWZbB3bCeQm7Q=", "id"=>"6"}
+  [1m[35mThermometer Load (0.2ms)[0m  SELECT  "thermometers".* FROM "thermometers"  WHERE "thermometers"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles"  WHERE "roles"."resource_id" = $1 AND "roles"."resource_type" = $2  [["resource_id", 6], ["resource_type", "Thermometer"]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "thermometers" WHERE "thermometers"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/thermometers
+Completed 302 Found in 11ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/thermometers" for 127.0.0.1 at 2015-03-26 20:34:05 -0400
+Processing by ThermometersController#index as JS
+  [1m[36mThermometer Load (0.3ms)[0m  [1mSELECT "thermometers".* FROM "thermometers"[0m
+  Rendered thermometers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 93ms (Views: 88.1ms | ActiveRecord: 0.3ms)
