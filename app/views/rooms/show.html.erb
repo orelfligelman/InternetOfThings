@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Bedroom:</strong>
+  <%= @room.bedroom %>
+</p>
+
+<p>
+  <strong>Bath:</strong>
+  <%= @room.bath %>
+</p>
+
+<p>
+  <strong>Living:</strong>
+  <%= @room.living %>
+</p>
+
+<p>
+  <strong>Dining:</strong>
+  <%= @room.dining %>
+</p>
+
+<p>
+  <strong>Garage:</strong>
+  <%= @room.garage %>
+</p>
+
+<p>
+  <strong>Basement:</strong>
+  <%= @room.basement %>
+</p>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>

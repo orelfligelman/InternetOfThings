@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Meat:</strong>
+  <%= @grocery.meat %>
+</p>
+
+<p>
+  <strong>Vegetable:</strong>
+  <%= @grocery.vegetable %>
+</p>
+
+<p>
+  <strong>Fruit:</strong>
+  <%= @grocery.fruit %>
+</p>
+
+<p>
+  <strong>Dairy:</strong>
+  <%= @grocery.dairy %>
+</p>
+
+<%= link_to 'Edit', edit_grocery_path(@grocery) %> |
+<%= link_to 'Back', groceries_path %>

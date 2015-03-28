@@ -1,9 +1,32 @@
 Rails.application.routes.draw do
-  devise_for :users , :controllers => { :omniauth_callbacks => "callbacks" }
-  resources :thermometers
+
   devise_scope :user do
-    get "/login" => "devise/sessions#new"
+    root to: "devise/sessions#new"
   end
+
+  devise_for :users , :controllers => { :omniauth_callbacks => "callbacks" }
+
+  resources :thermometers
+    #routing to thermometer server as sinatra application
+    match '/thermometer.rb', to: thermometer_server, via: :all
+
+  resources :appliances
+
+  resources :rooms
+
+  resources :groceries
+
+  resources :media
+
+  resources :doors
+
+  resources :lights
+
+  resources :musics
+
+
+
+
   # get '/thermometers/:id', to: 'thermometers#show', as: 'thermometer'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -21,7 +44,8 @@ Rails.application.routes.draw do
   #   resources :products
 
   # Example resource route with options:
-  #   resources :products do
+  #   resources :products dodaemon books
+
   #     member do
   #       get 'short'
   #       post 'toggle'

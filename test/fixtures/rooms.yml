@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bedroom: MyString
+  bath: MyString
+  living: MyString
+  dining: MyString
+  garage: MyString
+  basement: MyString
+
+two:
+  bedroom: MyString
+  bath: MyString
+  living: MyString
+  dining: MyString
+  garage: MyString
+  basement: MyString
