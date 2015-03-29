@@ -14,7 +14,7 @@ class ThermometersController < ApplicationController
     response.stream.close
   end
 
-  def hot_hot_hot
+  def hot_hot_hotkill
     if @thermometer.maxtemp > @thermometer.current_temp
       # @thermometer_server = Thermometer.find(params[:id])
       ThermometerMailer.hot_hot_hot(self)
@@ -24,7 +24,8 @@ class ThermometersController < ApplicationController
   end
 
   def index
-    @thermometers = Thermometer.all
+    render :text => params.inspect
+    @thermometers = current_user.thermometers.all
     # @thermometers = current_user.thermometers.order('created_at desc')
     respond_with(@thermometers)
   end

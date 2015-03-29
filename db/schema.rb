@@ -11,10 +11,53 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150325213626) do
+ActiveRecord::Schema.define(version: 20150328111620) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "appliances", force: true do |t|
+    t.string   "oven"
+    t.boolean  "power"
+    t.string   "microwave"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "doors", force: true do |t|
+    t.boolean  "lock"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "groceries", force: true do |t|
+    t.string   "meat"
+    t.string   "vegetable"
+    t.string   "fruit"
+    t.string   "dairy"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "lights", force: true do |t|
+    t.integer  "intensity"
+    t.boolean  "power"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "media", force: true do |t|
+    t.string   "television"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "musics", force: true do |t|
+    t.string   "song"
+    t.string   "artist"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "roles", force: true do |t|
     t.string   "name"
@@ -27,6 +70,17 @@ ActiveRecord::Schema.define(version: 20150325213626) do
   add_index "roles", ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id", using: :btree
   add_index "roles", ["name"], name: "index_roles_on_name", using: :btree
 
+  create_table "rooms", force: true do |t|
+    t.string   "bedroom"
+    t.string   "bath"
+    t.string   "living"
+    t.string   "dining"
+    t.string   "garage"
+    t.string   "basement"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "thermometers", force: true do |t|
     t.string   "location"
     t.float    "maxtemp"
@@ -35,6 +89,14 @@ ActiveRecord::Schema.define(version: 20150325213626) do
     t.datetime "updated_at"
     t.float    "current_temp"
   end
+
+  create_table "thermometers_users", id: false, force: true do |t|
+    t.integer "user_id",        null: false
+    t.integer "thermometer_id", null: false
+  end
+
+  add_index "thermometers_users", ["thermometer_id"], name: "index_thermometers_users_on_thermometer_id", using: :btree
+  add_index "thermometers_users", ["user_id"], name: "index_thermometers_users_on_user_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
