@@ -1,0 +1,32 @@
+<%= form_for @grocery, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :meat, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :meat, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :vegetable, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :vegetable, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :fruit, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fruit, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :dairy, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :dairy, :class => 'text_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                groceries_path, :class => 'btn' %>
+  </div>
+<% end %>

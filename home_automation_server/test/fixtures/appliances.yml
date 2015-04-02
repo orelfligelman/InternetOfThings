@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  oven: MyString
+  power: false
+  microwave: MyString
+  power: false
+
+two:
+  oven: MyString
+  power: false
+  microwave: MyString
+  power: false

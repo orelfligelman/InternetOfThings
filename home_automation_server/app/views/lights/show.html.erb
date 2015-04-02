@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Intensity:</strong>
+  <%= @light.intensity %>
+</p>
+
+<p>
+  <strong>Power:</strong>
+  <%= @light.power %>
+</p>
+
+<%= link_to 'Edit', edit_light_path(@light) %> |
+<%= link_to 'Back', lights_path %>
