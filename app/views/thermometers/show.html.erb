@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @thermometer.location %>
+</p>
+
+<p>
+  <strong>Maxtemp:</strong>
+  <%= @thermometer.maxtemp %>
+</p>
+
+
+
+<div class="toggle toggle-modern">
+<p>
+  <strong>Power:</strong>
+  <%= @thermometer.power %>
+</div>cd
+</p>
+
+<p>
+  <strong>Current Temperature:</strong>
+  <%= @thermometer.current_temp %>
+</p>
+
+
+
+<%= image_tag "thermometer.jpg" %>
+
+
+
+  </div>
+
+
+<div class="thermometer" data-percent="75" data-speed="slow" data-orientation="vertical"></div>
+
+
+<div class="thermometer-outer">
+  <div class="thermometer-inner"></div>
+</div>
+</div>
+
+
+
+
+
+
+<%= link_to 'Edit', edit_thermometer_path(@thermometer) %> |
+<%= link_to 'Back', thermometers_path %>
+
+
+
+

@@ -1,0 +1,33 @@
+<%= form_for(@appliance) do |f| %>
+  <% if @appliance.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@appliance.errors.count, "error") %> prohibited this appliance from being saved:</h2>
+
+      <ul>
+      <% @appliance.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :oven %><br>
+    <%= f.text_field :oven %>
+  </div>
+  <div class="field">
+    <%= f.label :power %><br>
+    <%= f.check_box :power %>
+  </div>
+  <div class="field">
+    <%= f.label :microwave %><br>
+    <%= f.text_field :microwave %>
+  </div>
+  <div class="field">
+    <%= f.label :power %><br>
+    <%= f.check_box :power %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
