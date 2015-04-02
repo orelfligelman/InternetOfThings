@@ -1,0 +1,27 @@
+# Logfile created on 2015-03-27 21:26:27 -0400 by logger.rb/44203
+I, [2015-03-27T21:26:27.283551 #89069]  INFO -- : 0:  i18n (0.7.0) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/i18n-0.7.0.gemspec
+I, [2015-03-27T21:26:27.283954 #89069]  INFO -- : 0:  json (1.8.2) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/json-1.8.2.gemspec
+I, [2015-03-27T21:26:27.284292 #89069]  INFO -- : 0:  minitest (5.5.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/minitest-5.5.1.gemspec
+I, [2015-03-27T21:26:27.284577 #89069]  INFO -- : 0:  thread_safe (0.3.5) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.3.5.gemspec
+I, [2015-03-27T21:26:27.284856 #89069]  INFO -- : 0:  tzinfo (1.2.2) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/tzinfo-1.2.2.gemspec
+I, [2015-03-27T21:26:29.006348 #89069]  INFO -- : 0:  activesupport (4.2.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.2.1.gemspec
+I, [2015-03-27T21:26:29.006777 #89069]  INFO -- : 0:  builder (3.2.2) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/builder-3.2.2.gemspec
+I, [2015-03-27T21:26:29.882121 #89069]  INFO -- : 0:  activemodel (4.2.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.2.1.gemspec
+I, [2015-03-27T21:26:32.404931 #89069]  INFO -- : 0:  arel (6.0.0) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/arel-6.0.0.gemspec
+I, [2015-03-27T21:26:33.609221 #89069]  INFO -- : 0:  activerecord (4.2.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.2.1.gemspec
+I, [2015-03-27T21:26:34.847667 #89069]  INFO -- : 0:  bond (0.5.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/bond-0.5.1.gemspec
+I, [2015-03-27T21:26:34.848239 #89069]  INFO -- : 0:  pg (0.18.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/pg-0.18.1.gemspec
+I, [2015-03-27T21:26:36.799795 #89069]  INFO -- : 0:  rack (1.6.0) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/rack-1.6.0.gemspec
+I, [2015-03-27T21:26:36.800291 #89069]  INFO -- : 0:  rack-protection (1.5.3) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.3.gemspec
+I, [2015-03-27T21:26:36.800998 #89069]  INFO -- : 0:  rack-test (0.6.3) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.3.gemspec
+I, [2015-03-27T21:26:37.774134 #89069]  INFO -- : 0:  ripl (0.7.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/ripl-0.7.1.gemspec
+I, [2015-03-27T21:26:38.893086 #89069]  INFO -- : 0:  ripl-multi_line (0.3.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/ripl-multi_line-0.3.1.gemspec
+I, [2015-03-27T21:26:39.736035 #89069]  INFO -- : 0:  ripl-rack (0.2.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/ripl-rack-0.2.1.gemspec
+I, [2015-03-27T21:26:40.750761 #89069]  INFO -- : 0:  tilt (2.0.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/tilt-2.0.1.gemspec
+I, [2015-03-27T21:26:40.751578 #89069]  INFO -- : 0:  sinatra (1.4.6) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.6.gemspec
+I, [2015-03-27T21:26:41.587778 #89069]  INFO -- : 0:  sinatra-activerecord (2.0.5) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/sinatra-activerecord-2.0.5.gemspec
+I, [2015-03-27T21:26:42.438597 #89069]  INFO -- : 0:  sinatra-flash (0.3.0) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/sinatra-flash-0.3.0.gemspec
+I, [2015-03-27T21:26:43.422515 #89069]  INFO -- : 0:  sinatra-redirect-with-flash (0.2.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/sinatra-redirect-with-flash-0.2.1.gemspec
+I, [2015-03-27T21:26:43.422984 #89069]  INFO -- : 0:  sqlite3 (1.3.10) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.10.gemspec
+I, [2015-03-27T21:26:44.286051 #89069]  INFO -- : 0:  tux (0.3.0) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0/specifications/tux-0.3.0.gemspec
+I, [2015-03-27T21:26:44.286427 #89069]  INFO -- : 0:  bundler (1.5.1) from /Users/adityanarayan/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
