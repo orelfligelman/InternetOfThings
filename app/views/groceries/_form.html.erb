@@ -1,33 +1,32 @@
-<%= form_for(@grocery) do |f| %>
-  <% if @grocery.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@grocery.errors.count, "error") %> prohibited this grocery from being saved:</h2>
-
-      <ul>
-      <% @grocery.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+<%= form_for @grocery, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :meat, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :meat, :class => 'text_field' %>
     </div>
-  <% end %>
+  </div>
+  <div class="control-group">
+    <%= f.label :vegetable, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :vegetable, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :fruit, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fruit, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :dairy, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :dairy, :class => 'text_field' %>
+    </div>
+  </div>
 
-  <div class="field">
-    <%= f.label :meat %><br>
-    <%= f.text_field :meat %>
-  </div>
-  <div class="field">
-    <%= f.label :vegetable %><br>
-    <%= f.text_field :vegetable %>
-  </div>
-  <div class="field">
-    <%= f.label :fruit %><br>
-    <%= f.text_field :fruit %>
-  </div>
-  <div class="field">
-    <%= f.label :dairy %><br>
-    <%= f.text_field :dairy %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                groceries_path, :class => 'btn' %>
   </div>
 <% end %>

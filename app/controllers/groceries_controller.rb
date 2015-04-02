@@ -2,7 +2,7 @@ class GroceriesController < ApplicationController
   before_action :set_grocery, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
-
+ewfwef
   def index
     @groceries = Grocery.all
     respond_with(@groceries)

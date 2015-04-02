@@ -54,4 +54,5 @@ gem 'binding_of_caller'
 # gem "puma"
 gem 'pg'
 gem 'capistrano-rails', '~> 1.1.1'
-
+gem 'twitter-bootstrap-rails'
+gem 'therubyracer'

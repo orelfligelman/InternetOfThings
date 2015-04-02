@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150328111620) do
+ActiveRecord::Schema.define(version: 20150330090030) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -88,7 +88,10 @@ ActiveRecord::Schema.define(version: 20150328111620) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.float    "current_temp"
+    t.integer  "user_id"
   end
+
+  add_index "thermometers", ["user_id"], name: "index_thermometers_on_user_id", using: :btree
 
   create_table "thermometers_users", id: false, force: true do |t|
     t.integer "user_id",        null: false

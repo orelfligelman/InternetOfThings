@@ -24,8 +24,8 @@ class ThermometersController < ApplicationController
   end
 
   def index
-    render :text => params.inspect
-    @thermometers = current_user.thermometers.all
+    # render :text => params.inspect
+    @thermometers = Thermometer.all
     # @thermometers = current_user.thermometers.order('created_at desc')
     respond_with(@thermometers)
   end

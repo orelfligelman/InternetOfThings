@@ -1,6 +1,5 @@
-<h1>Editing grocery</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @grocery %> |
-<%= link_to 'Back', groceries_path %>
+<%- model_class = Grocery -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => model_class.model_name.human.titleize %></h1>
+</div>
+<%= render :partial => 'form' %>

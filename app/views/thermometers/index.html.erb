@@ -1,49 +1,44 @@
-<h1>Listing thermometers</h1>
-
-<table>
+<%- model_class = Thermometer -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
   <thead>
     <tr>
-      <th>Location</th>
-      <th>Maxtemp</th>
-      <th>Power</th>
-      <th colspan="3"></th>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:location) %></th>
+      <th><%= model_class.human_attribute_name(:maxtemp) %></th>
+      <th><%= model_class.human_attribute_name(:power) %></th>
+      <th><%= model_class.human_attribute_name(:current_temp) %></th>
+      <th><%= model_class.human_attribute_name(:user_id) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
-
-
-
+  <tbody>
     <% @thermometers.each do |thermometer| %>
-
-        <td id = "location"><%= thermometer.location %></td>
-        <td id = "maxtemp"><%= thermometer.maxtemp %></td>
-        <td id = "power"><%= thermometer.power %></td>
-        <td id = "delete"><%= button_to 'Turn off Thermometer', thermometer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <td><%= link_to 'Show', thermometer %></td>
-        <td><%= link_to 'Edit', edit_thermometer_path(thermometer) %></td>
-
+      <tr>
+        <td><%= link_to thermometer.id, thermometer_path(thermometer) %></td>
+        <td><%= thermometer.location %></td>
+        <td><%= thermometer.maxtemp %></td>
+        <td><%= thermometer.power %></td>
+        <td><%= thermometer.current_temp %></td>
+        <td><%= thermometer.user_id %></td>
+        <td><%=l thermometer.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_thermometer_path(thermometer), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      thermometer_path(thermometer),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
     <% end %>
+  </tbody>
+</table>
 
-
-<br>
-
-<div id="price-range">
-  <form>
-    <label for="min">Minimum Price:</label>
-    <select id="min">
-      <option value="0">0</option> <option value="10">10</option> <option value="20">20</option> ⋮
-      <option value="80">80</option>
-      <option value="90">90</option>
-    </select>
-    <br/>
-    <label for="max">Maximum Price:</label>
-    <select id="max">
-      <option value="10">10</option> <option value="20">20</option> <option value="30">30</option> ⋮
-      <option value="100">100</option>
-    </select>
-  </form>
-</div>
-
-
-
-
-<%= link_to 'New Thermometer', new_thermometer_path %>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_thermometer_path,
+            :class => 'btn btn-primary' %>

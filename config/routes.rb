@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   #   root to: "devise/sessions#new"
   # end
 
-  devise_for :users , :controllers => { :omniauth_callbacks => "callbacks" }
+  devise_for :users , :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
 
   resources :thermometers
-  root to: "thermometers#index"
+  # root to: "thermometers#index"
 
     #routing to thermometer server as sinatra application
     # match '/thermometer.rb', to: thermometer_server, via: :all
@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   resources :musics
 
 
-  get '*path', to: "redirect#index"
+  # get '*path', to: "redirect#index"
 
   # get '/thermometers/:id', to: 'thermometers#show', as: 'thermometer'
   # The priority is based upon order of creation: first created -> highest priority.
