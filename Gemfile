@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'devise'
 gem 'omniauth'
 gem "omniauth-google-oauth2"
@@ -52,6 +52,6 @@ gem 'better_errors'
 gem 'pry'
 gem 'binding_of_caller'
 # gem "puma"
-gem 'pg'
+# gem 'pg'
 gem 'capistrano-rails', '~> 1.1.1'
 

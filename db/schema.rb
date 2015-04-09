@@ -11,10 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150328111620) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+ActiveRecord::Schema.define(version: 20150409174246) do
 
   create_table "appliances", force: true do |t|
     t.string   "oven"
@@ -44,7 +41,10 @@ ActiveRecord::Schema.define(version: 20150328111620) do
     t.boolean  "power"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "room_id"
   end
+
+  add_index "lights", ["room_id"], name: "index_lights_on_room_id"
 
   create_table "media", force: true do |t|
     t.string   "television"
@@ -67,8 +67,8 @@ ActiveRecord::Schema.define(version: 20150328111620) do
     t.datetime "updated_at"
   end
 
-  add_index "roles", ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id", using: :btree
-  add_index "roles", ["name"], name: "index_roles_on_name", using: :btree
+  add_index "roles", ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id"
+  add_index "roles", ["name"], name: "index_roles_on_name"
 
   create_table "rooms", force: true do |t|
     t.string   "bedroom"
@@ -95,8 +95,8 @@ ActiveRecord::Schema.define(version: 20150328111620) do
     t.integer "thermometer_id", null: false
   end
 
-  add_index "thermometers_users", ["thermometer_id"], name: "index_thermometers_users_on_thermometer_id", using: :btree
-  add_index "thermometers_users", ["user_id"], name: "index_thermometers_users_on_user_id", using: :btree
+  add_index "thermometers_users", ["thermometer_id"], name: "index_thermometers_users_on_thermometer_id"
+  add_index "thermometers_users", ["user_id"], name: "index_thermometers_users_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -115,14 +115,14 @@ ActiveRecord::Schema.define(version: 20150328111620) do
     t.string   "uid"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
   create_table "users_roles", id: false, force: true do |t|
     t.integer "user_id"
     t.integer "role_id"
   end
 
-  add_index "users_roles", ["user_id", "role_id"], name: "index_users_roles_on_user_id_and_role_id", using: :btree
+  add_index "users_roles", ["user_id", "role_id"], name: "index_users_roles_on_user_id_and_role_id"
 
 end

@@ -14,6 +14,7 @@ class RoomsController < ApplicationController
 
   def new
     @room = Room.new
+    2.times { @room.lights.build}
     respond_with(@room)
   end
 
@@ -42,6 +43,6 @@ class RoomsController < ApplicationController
     end
 
     def room_params
-      params.require(:room).permit(:bedroom, :bath, :living, :dining, :garage, :basement)
+      params.require(:room).permit(:bedroom, :bath, :living, :dining, :garage, :basement, lights_attributes: [:id, :power, :intensity, :_destroy])
     end
 end

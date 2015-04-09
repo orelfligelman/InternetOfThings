@@ -6,13 +6,13 @@ class ThermometersController < ApplicationController
   include ActionController::Live
   respond_to :html, :xml, :json
 
-  def stream
-    10.times do |i|
-      response.stream.write "This is kine #{i}\n"
-    end
-  ensure
-    response.stream.close
-  end
+  # def stream
+  #   10.times do |i|
+  #     response.stream.write "This is kine #{i}\n"
+  #   end
+  # ensure
+  #   response.stream.close
+  # end
 
   def hot_hot_hotkill
     if @thermometer.maxtemp > @thermometer.current_temp
@@ -24,8 +24,8 @@ class ThermometersController < ApplicationController
   end
 
   def index
-    render :text => params.inspect
-    @thermometers = current_user.thermometers.all
+    # render :text => params.inspect
+    @thermometers = Thermometer.all
     # @thermometers = current_user.thermometers.order('created_at desc')
     respond_with(@thermometers)
   end

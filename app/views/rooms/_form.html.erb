@@ -10,6 +10,20 @@
       </ul>
     </div>
   <% end %>
+  Lights:
+    <ul>
+    <%= f.fields_for :lights do |lights_form| %>
+      <li>
+        <%= lights_form.label :intensity %>
+        <%= lights_form.number_field :intensity %>
+
+        <%= lights_form.label :power %>
+        <%= lights_form.check_box :power %>
+      </li>
+    <% end %>
+  </ul>
+
+
 
   <div class="field">
     <%= f.label :bedroom %><br>
