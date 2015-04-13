@@ -1,28 +1,2 @@
 == README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This project aims to develop the software to run a house programmatically. The code builds a web interface for control of common household products. Each part of the house is equipped with behavior the user can specify. For example, a user can control a thermometer in a certain room. He can say what temperature to set the room at, he can be notified when the thermometer is offline, when the thermometer has exceeded a certain temperature. In every room, a user can control whether the lights in the room are on, how intense the light is. He can also control the music that is being played in the room. The ultimate goal is a unified solution whereby a user can control his entire house using a simple platform.  
